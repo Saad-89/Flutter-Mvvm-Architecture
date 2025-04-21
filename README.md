@@ -24,5 +24,14 @@ This repository demonstrates a clean and scalable way to structure a Flutter app
 
 ## 📁 Project Structure
 
-lib/ ├── core/ # Common utilities, constants, themes, extensions ├── data/ # API, repository, local DB logic │ └── models/ # Data models used across the app ├── view/ # All UI components (screens, widgets) │ └── screens/ # Each screen folder with UI widgets ├── viewmodel/ # ViewModels managing state and business logic ├── services/ # App services like auth, API, shared preferences ├── routes/ # Navigation and route management └── main.dart # Entry point of the application
-
+```text
+lib/
+├── core/           # Common utilities, constants, themes, extensions
+├── data/           # API, repository, and local database logic
+│   └── models/     # Data models used throughout the app
+├── view/           # All UI components
+│   └── screens/    # Each screen folder with related widgets
+├── viewmodel/      # ViewModels managing state and business logic
+├── services/       # App services like Auth, API, SharedPreferences
+├── routes/         # App navigation and route management
+└── main.dart       # App entry point
